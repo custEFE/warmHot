@@ -1,0 +1,382 @@
+[ 2016-02-23T20:05:12+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/User/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-02-23T20:05:23+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.053003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.002000s ]
+SQL: SELECT `id` FROM `user` WHERE ( `name` = '950616' ) AND ( `pwd` = '111111' )  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `user` WHERE ( `weihao` = '950616' ) AND ( `pwd` = '111111' )  [ RunTime:0.001000s ]
+
+[ 2016-02-23T20:05:29+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT `id` FROM `user` WHERE ( `name` = '950616' ) AND ( `pwd` = '1910580845' )  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `user` WHERE ( `weihao` = '950616' ) AND ( `pwd` = '1910580845' )  [ RunTime:0.000000s ]
+
+[ 2016-02-23T20:05:35+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.002000s ]
+SQL: SELECT `id` FROM `user` WHERE ( `name` = '950616' ) AND ( `pwd` = '111111' )  [ RunTime:0.001000s ]
+SQL: SELECT `id` FROM `user` WHERE ( `weihao` = '950616' ) AND ( `pwd` = '111111' )  [ RunTime:0.000000s ]
+
+[ 2016-02-23T20:06:32+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/User/login
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT `id` FROM `user` WHERE ( `name` = '950616' ) AND ( `pwd` = '950616' )  [ RunTime:0.000000s ]
+SQL: SELECT `id` FROM `user` WHERE ( `weihao` = '950616' ) AND ( `pwd` = '950616' )  [ RunTime:0.000000s ]
+
+[ 2016-02-23T20:06:32+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/User/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friend` WHERE ( bgz_id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friend` WHERE ( gz_id=1 ) LIMIT 1   [ RunTime:0.011000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( `b_id` = 1 ) AND ( `type` = 1 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `relative` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `relative` WHERE ( `xgr_id` = 1 ) AND ( `read` = 0 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2016-02-23T20:06:40+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/User/getOneUser
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=1 )  [ RunTime:0.000000s ]
+
+[ 2016-02-23T20:06:40+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/Blog/getLeavewordList
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.002000s ]
+SQL: SELECT `author`,`content`,`time` FROM `reply` WHERE ( `b_id` = 1 ) AND ( `type` = 1 ) ORDER BY time desc LIMIT 0,6   [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=3 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=3 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=3 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=3 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=3 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=3 )  [ RunTime:0.001000s ]
+
+[ 2016-02-23T20:06:44+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/Blog/getLeavewordList
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.002000s ]
+SQL: SELECT `author`,`content`,`time` FROM `reply` WHERE ( `b_id` = 1 ) AND ( `type` = 1 ) ORDER BY time desc LIMIT 6,6   [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.002001s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=3 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=3 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=3 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=3 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=1 )  [ RunTime:0.001000s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=1 )  [ RunTime:0.000000s ]
+
+[ 2016-02-23T20:06:46+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/Blog/getLeavewordList
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.003001s ]
+SQL: SELECT `author`,`content`,`time` FROM `reply` WHERE ( `b_id` = 1 ) AND ( `type` = 1 ) ORDER BY time desc LIMIT 12,6   [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=1 )  [ RunTime:0.000000s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=2 )  [ RunTime:0.001000s ]
+
+[ 2016-02-23T20:06:48+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/Blog/getLeavewordList
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.002000s ]
+SQL: SELECT `author`,`content`,`time` FROM `reply` WHERE ( `b_id` = 1 ) AND ( `type` = 1 ) ORDER BY time desc LIMIT 18,6   [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 100 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\bolg\server\public\wyj\Lib\Model\BlogModel.class.php 第 43 行.
+
+[ 2016-02-23T20:07:09+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/User/getMyFansLists
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.002000s ]
+SQL: SELECT id,name,icon,count,tags FROM `user` WHERE  id IN (SELECT gz_id FROM `friend` WHERE bgz_id =1) [ RunTime:0.001000s ]
+
+[ 2016-02-23T20:07:12+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/User/getMyWatchLists
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SELECT id,name,icon,count,tags FROM `user` WHERE  id IN (SELECT bgz_id FROM `friend` WHERE gz_id =1) [ RunTime:0.001001s ]
+
+[ 2016-02-23T20:07:14+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/User/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.009000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.010001s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=3 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.033002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friend` WHERE ( bgz_id=3 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friend` WHERE ( gz_id=3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.015001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( `b_id` = 3 ) AND ( `type` = 1 ) LIMIT 1   [ RunTime:0.009001s ]
+SQL: SHOW COLUMNS FROM `relative` [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `relative` WHERE ( `xgr_id` = 3 ) AND ( `read` = 0 ) LIMIT 1   [ RunTime:0.004000s ]
+
+[ 2016-02-23T20:07:14+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/User/updateScan
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.002000s ]
+SQL: UPDATE `user` SET `scan`=scan+1 WHERE ( `id` = 3 ) [ RunTime:0.000000s ]
+
+[ 2016-02-23T20:07:14+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/User/isGz
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.017001s ]
+SQL: SELECT * FROM `friend` WHERE ( `gz_id` = 1 ) AND ( `bgz_id` = 3 )  [ RunTime:0.005000s ]
+
+[ 2016-02-23T20:12:42+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/User/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.002000s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=1 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friend` WHERE ( bgz_id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friend` WHERE ( gz_id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.004001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( `b_id` = 1 ) AND ( `type` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `relative` [ RunTime:0.004000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `relative` WHERE ( `xgr_id` = 1 ) AND ( `read` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2016-02-23T20:12:47+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/Blog/getHotLists
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `blog` WHERE ( `time` >= '2016-02-23 08:12:47' ) ORDER BY scan desc LIMIT 0,3   [ RunTime:0.000000s ]
+
+[ 2016-02-23T20:14:26+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/User/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friend` WHERE ( bgz_id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friend` WHERE ( gz_id=1 ) LIMIT 1   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( `b_id` = 1 ) AND ( `type` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `relative` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `relative` WHERE ( `xgr_id` = 1 ) AND ( `read` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2016-02-23T20:14:26+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/Blog/getHotLists
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `blog` WHERE ( `time` >= '2016-02-23 08:14:26' ) ORDER BY scan desc LIMIT 0,3   [ RunTime:0.001000s ]
+
+[ 2016-02-23T20:14:31+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/Blog/getHotLists
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `blog` WHERE ( `time` >= '2016-02-23 08:14:31' ) ORDER BY scan desc LIMIT 0,3   [ RunTime:0.000000s ]
+
+[ 2016-02-23T20:14:31+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/User/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.002001s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=1 )  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friend` WHERE ( bgz_id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friend` WHERE ( gz_id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.002000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( `b_id` = 1 ) AND ( `type` = 1 ) LIMIT 1   [ RunTime:0.008001s ]
+SQL: SHOW COLUMNS FROM `relative` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `relative` WHERE ( `xgr_id` = 1 ) AND ( `read` = 0 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2016-02-23T20:14:47+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/User/index
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.003001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=1 )  [ RunTime:0.005001s ]
+SQL: SHOW COLUMNS FROM `friend` [ RunTime:0.017001s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friend` WHERE ( bgz_id=1 ) LIMIT 1   [ RunTime:0.009000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `friend` WHERE ( gz_id=1 ) LIMIT 1   [ RunTime:0.011001s ]
+SQL: SHOW COLUMNS FROM `reply` [ RunTime:0.006000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `reply` WHERE ( `b_id` = 1 ) AND ( `type` = 1 ) LIMIT 1   [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `relative` [ RunTime:0.014000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `relative` WHERE ( `xgr_id` = 1 ) AND ( `read` = 0 ) LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2016-02-23T20:14:47+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/Blog/getHotLists
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.016001s ]
+SQL: SHOW COLUMNS FROM `blog` [ RunTime:0.020001s ]
+SQL: SELECT * FROM `blog` WHERE ( `time` >= '2016-02-23 08:14:47' ) ORDER BY scan desc LIMIT 0,3   [ RunTime:0.006001s ]
+
+[ 2016-02-23T20:19:45+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/User/getOneUser
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=1 )  [ RunTime:0.000000s ]
+
+[ 2016-02-23T20:20:12+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/User/getOneUser
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=1 )  [ RunTime:0.009001s ]
+
+[ 2016-02-23T20:20:20+08:00 ] 127.0.0.1 /bolg/server/public/wyj/index.php/User/getOneUser
+INFO: [ route_check ] --START--
+INFO: Run CheckRoute Behavior [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run ReadHtmlCache Behavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of UserModel::add() should be compatible with Model::add($data = '', $options = Array, $replace = false) D:\wamp\www\bolg\server\public\wyj\Lib\Model\UserModel.class.php 第 2 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`icon`,`weihao`,`name`,`count`,`scan`,`tags`,`time` FROM `user` WHERE ( id=1 )  [ RunTime:0.000000s ]
+

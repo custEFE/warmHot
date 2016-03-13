@@ -1,0 +1,119 @@
+.header{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: #1ba1e2;
+	color: white;
+	font-size: 1em;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.rows{
+	width: 100%;
+	float: left;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #f7e5d7;
+}
+.r_top{
+	width: 96%;
+	margin-left: 2%;
+	margin-top:15px;
+	float: left;
+}
+.i_container{
+	width: 30px;
+	height: 30px;
+	float: left;
+}
+.r_right{
+	width: 85%;
+	height: 30px;
+	float: left;
+	padding-left: 5px;
+}
+.name{
+	font-weight: bold;
+	font-size: 0.8em;
+}
+.time{
+	font-size: 0.5em;
+}
+.content{
+	font-size: 0.9em;
+	width: 96%;
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-top: 5px;
+	color: #825a2c;
+}
+.b_scan{
+	width: 94%;
+	padding:5px 3%;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px dashed #1ba1e2;
+}
+.b_scan_left{
+	width: 50%;
+	float: left;
+	font-size: 0.6em;
+	color: #B67DFE;
+}
+.b_scan_right{
+	width: 45%;
+	float: left;
+	color: #C9302C;
+	font-size: 0.9em;
+	text-align: right;
+}
+.icon2{
+	width: 30px;
+	height: 30px;
+	opacity: 1;
+	border-radius: 30px;
+}
+.say{
+	width: 100%;
+	float: left;
+	display: none;
+}
+.say_tontent{
+	width: 96%;
+	padding:2%;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	float: left;
+}
+.say_button{
+	width: 100%;
+	float: left;
+	height: 40px;
+}
+.button{
+	width: 50%;
+	height: 30px;
+	margin-left: 25%;
+	margin-top: 10px;
+	color: #FFF;
+	border: 0px none;
+	background: #1BA1E2 none repeat scroll 0% 0%;
+	border-radius: 5px;
+}
+.pl_container{
+	width: 100%;
+	float: left;
+}
+.data{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	font-size: 0.9em;
+	text-align: center;
+	color: #666b71;
+}

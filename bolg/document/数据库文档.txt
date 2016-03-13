@@ -1,0 +1,13 @@
+user(id,昵称，头像地址，密码，手机，性别，个人简介，首页浏览量，积分，注册时间)
+friend(id，关注人id，被关注id，关注时间)
+blog(id,作者id,内容，浏览量，发表时间)
+relative(id,与谁相关者id，事件触发者id,类型（留言，关注，评论），内容（留言内容，评论内容）,说说id,发生时间，是否已读)
+pl(id,博客id,作者id，评论内容，评论时间)
+leaveword（id，博主id,作者id,留言内容，发表时间）
+pl和leaveword可以合为一张表
+
+
+reply表type=1为留言  type=2为评论
+relative表type=1为留言  type=2为评论  type=3为关注
+
+select * from blog where author in (select bgz_id as id from friend where gz_id =1)

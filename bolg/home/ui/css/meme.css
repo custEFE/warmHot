@@ -1,0 +1,258 @@
+.operator{
+	width: 100%;
+	float: left;
+}
+.header{
+	width: 100%;
+	float: left;
+	background: url('http://localhost/bolg/server/upload/main_bg/a.png') no-repeat;
+	background-size: 100% 100%;
+}
+.icon_container{
+	width: 100%;
+	height: 90px;
+	/*padding-top: 20px;*/
+	float: left;
+}
+.top{
+	width: 100%;
+	height: 20px;
+	float: left;
+	text-align: right;
+}
+.top img {
+	margin-right: 10px;
+}
+.icon{
+	width: 70px;
+	height: 70px;
+	margin:0 auto;
+}
+.icon2{
+	width: 30px;
+	height: 30px;
+	opacity: 1;
+	border-radius: 30px;
+}
+.img{
+	opacity: 1;
+	width: 70px;
+	height: 70px;
+	border-radius: 70px;
+}
+.tname{
+	float: left;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: bolder;
+	color: black;
+	font-family: '楷体';
+}
+.tjianjie{
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 0.8em;
+	color:#EADCCA;
+	font-family: '仿宋';
+}
+.f_line{
+	width: 100%;
+	background: #f9f2eb;
+	float: left;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.s_line{
+	width: 100%;
+	float: left;
+	background: #f9f2eb;
+}
+.gongneng_row{
+	width: 100%;
+	float: left;
+	border-top: 3px solid white;
+}
+.gongneng{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.gongneng a{
+	color: #7c6762;
+	font-size: 0.7em;
+}
+.t_line{
+	border-top: 3px solid white;
+	width: 95%;
+	padding-left: 5%;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	background: url('http://localhost/bolg/server/upload/blog_bg/b.png') no-repeat;
+	background-size: 100% 30px;
+}
+.ttype{
+	font-size: 0.9em;
+	color: white;
+	margin-left: 10px;
+}
+.focus{
+	color:#b24a31; 
+
+}
+.container{
+	float: left;
+}
+.row4{
+	color: #7c6762;
+	z-index: 1;
+	width: 24%;
+	text-align: center;
+	float: left;
+	font-size: 0.8em;
+}
+.divide_block1{
+	/*width: 1%;*/
+	float: left;
+	height: 20px;
+	padding-top: 10px;
+	border-left: 1px solid white;
+}
+.scan{
+	font-size: 0.6em;
+	color: #EADCCA;
+	font-weight: normal;
+	padding-bottom: 5px;
+	width: 100%;
+	text-align: center;
+}
+.row{
+	width: 100%;
+	float: left;
+}
+.r_top{
+	width: 96%;
+	margin-left: 2%;
+	margin-top:15px;
+	float: left;
+}
+.i_container{
+	width: 30px;
+	height: 30px;
+	float: left;
+}
+.r_right{
+	width: 85%;
+	height: 30px;
+	float: left;
+	padding-left: 5px;
+}
+.name{
+	font-weight: bold;
+	font-size: 0.8em;
+}
+.time{
+	font-size: 0.5em;
+}
+.content{
+	font-size: 0.9em;
+	width: 96%;
+	float: left;
+	padding-left: 2%;
+	padding-right: 2%;
+	margin-top: 5px;
+	color: #825a2c;
+	background: url('http://localhost/bolg/server/upload/blog_bg/hq.png') no-repeat;
+	background-size: 10% 50%;
+}
+.b_scan{
+	width: 94%;
+	padding:5px 3%;
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 1px dashed #1ba1e2;
+}
+.b_scan_left{
+	width: 50%;
+	float: left;
+	font-size: 0.6em;
+	color: #B67DFE;
+}
+.b_scan_right{
+	width: 45%;
+	float: left;
+	color: #C9302C;
+	font-size: 0.9em;
+	text-align: right;
+}
+.say{
+	width: 100%;
+	float: left;
+	/*display: none;*/
+}
+.say_tontent{
+	width: 96%;
+	padding:2%;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	float: left;
+}
+.say_button{
+	width: 100%;
+	float: left;
+	height: 40px;
+}
+.button{
+	width: 50%;
+	height: 30px;
+	margin-left: 25%;
+	margin-top: 10px;
+	color: #FFF;
+	border: 0px none;
+	background: #1BA1E2 none repeat scroll 0% 0%;
+	border-radius: 5px;
+}
+
+
+.ind{
+	width: 90px;
+	display: none;
+	position: absolute;
+	top:20px;
+	right: 0;
+	background: #F9F2EB;
+}
+.indrow{
+	width: 100%;
+	float: left;
+	font-size: 0.7em;
+	border-bottom: 1px solid white;
+}
+.indleft{
+	float: left;
+	width: 20px;
+	height: 20px;
+}
+.indimg{
+	width: 14px;
+	height: 14px;
+	margin:3px 3px;
+}
+.indright{
+	float: left;
+	line-height: 20px;
+	height: 20px;
+}
+.indnew{
+	float: left;
+	height:20px;
+	width: 20px;
+}

@@ -1,0 +1,92 @@
+body,a,p,textarea{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+.divide-line{
+	width: 94%;
+	margin:1% 3%;
+	height: 5px;
+	float: left;
+	border-bottom: 1px dashed #1ba1e2;
+}
+.theme{
+	background: #1ba1e2;
+}
+
+/*----------------提示框--------------*/
+.msgBox{
+	width: 80%;
+	height: 30px;
+	background: black;
+	color: white;
+	margin-left: 10%;
+	text-align: center;
+	line-height: 30px;
+	font-family: '宋体';
+	position: absolute;
+	z-index: 2;
+	/*display: none;*/
+	box-shadow:3px -2px 6px black;
+}
+.confim{
+	width: 80%;
+	height: 60px;
+	background: #222222;
+	margin-left: 10%;
+	z-index: 2;
+	position: absolute;
+}
+.confim_top{
+	width: 100%;
+	height: 36px;
+	float: left;
+	text-align: center;
+	color: #BCBDC0;
+	font-family: '宋体';
+	line-height: 35px;
+}
+.confim_bottom{
+	width: 100%;
+	height: 24px;
+	float: left;
+}
+.confim_row{
+	width: 50%;
+	height: 24px;
+	float: left;
+}
+.confim_btn{
+	width: 80%;
+	height: 20px;
+	margin-left:10%;
+	background: #333435;
+	text-align: center;
+	line-height: 20px;
+	font-size: 0.9em;
+	color: #BCBDC0;
+	font-family: '宋体';
+}
+/*.ceng{
+	width: 100%;
+	background: #484848;
+	position: fixed;
+	z-index: 2;
+	top:0px;
+	opacity: 0.8;
+}*/
+.loading_div{
+	width: 250px;
+	height: 250px;
+	background: #333435;
+	position: fixed;
+	z-index: 2;
+	border:1px solid black;
+	box-shadow:3px -2px 6px black;
+	border-radius: 5px;
+}
+.loading_img{
+	width: 24px;
+	height: 24px;
+	margin:113px 113px;
+}

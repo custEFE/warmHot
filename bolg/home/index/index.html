@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>个人主页</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../ui/css/common.css">
+    <link rel="stylesheet" type="text/css" href="../ui/css/meme.css">
+</head>
+<body>	
+	<div class="ind" id="more_page" isShow="false">
+		<div class="indrow">
+			<div class="indleft">
+				<div class="indimg">
+					<img src="../ui/img/icons-png/user-black.png">
+				</div>
+			</div>
+			<div class="indright">个人资料</div>
+			<div class="indnew">
+				<!-- <img src="../ui/img/icons-png/msg-red.png"> -->
+			</div>
+		</div>
+		<div class="indrow">
+			<div class="indleft">
+				<div class="indimg">
+					<img src="../ui/img/icons-png/plus-black.png">
+				</div>
+			</div>
+			<div class="indright">添加好友</div>
+			<div class="indnew">
+				<!-- <img src="../ui/img/icons-png/msg-red.png"> -->
+			</div>
+		</div>
+		<div class="indrow">
+			<div class="indleft">
+				<div class="indimg">
+					<img src="../ui/img/icons-png/mail-black.png">
+				</div>
+			</div>
+			<div class="indright">网站消息</div>
+			<div class="indnew">
+				<img src="../ui/img/icons-png/msg-red.png">
+			</div>
+		</div>
+		<div class="indrow">
+			<div class="indleft">
+				<div class="indimg">
+					<img src="../ui/img/icons-png/power-black.png">
+				</div>
+			</div>
+			<div class="indright">切换帐号</div>
+			<div class="indnew">
+			</div>
+		</div>
+	</div>
+
+	<div class="header">
+		<div class="top"><img id="more" src="../ui/img/icons-png/bullets-black.png"></div>
+		<div class="icon_container">
+			<div class="icon">
+				<img class="img" id="icon" >
+			</div>
+		</div>
+		<div class="tname" id="name">加载中..</div>
+		<div class="tjianjie" id="jianjie">个人简介：加载中..</div>
+		<div class="scan" id="scan">浏览量：加载中..</div>
+	</div>
+
+	<div class="operator">
+		<div class="f_line">
+			<a href="./jifen.html"><div class="row4" id="jifen">积分<br>(加载中..)</div></a>
+			<div class="divide_block1"></div>
+			<a href="./leaveword.html?isMine=1"><div class="row4" id="liuyanban">留言板<br>(加载中..)</div></a>
+			<div class="divide_block1"></div>
+			<a href="./friend.html?a=fs/isMine=1"><div class="row4" id="fensi">粉丝<br>(加载中..)</div></a>
+			<div class="divide_block1"></div>
+			<a href="./friend.html?a=gz/isMine=1"><div class="row4" id="guanzhu">关注<br>(加载中..)</div></a>
+		</div>
+		<div class="s_line">
+			<div class="gongneng_row">
+				<div class="gongneng"><a href="./saysay.html">写说说</a></div>
+				<div class="gongneng"><a href="./relative.html" id="xiangguan">与我相关</a></div>
+			</div>
+			<div class="gongneng_row">
+				<div class="gongneng"><a href="qiandao.html">学习签到</a></div>
+				<div class="gongneng"><a href=""></a></div>
+			</div>
+		</div>
+
+		<div class="t_line">
+			<font class="ttype focus">全网最热</font>
+			<font class="ttype">我的关注</font>
+			<font class="ttype">我的粉丝</font>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="r_top">
+				<div class="i_container">
+					<img class="icon2" src="http://localhost/bolg/server/upload/icon/2.jpg" />
+				</div>
+				<div class="r_right">
+					<div class="name">Tracy丶杰</div>
+					<div class="time">2013.01.01 15:44</div>
+				</div>
+			</div>
+			<a href="./say_detail.html?b=1">
+				<div class="content">
+					我这是怎么了
+				</div>
+			</a>
+			<div class="b_scan">
+				<div class="b_scan_left">浏览11次</div>
+				<div class="b_scan_right">评论(0)</div>
+			</div>
+			<div class="say">
+				<textarea class="say_tontent"></textarea>
+				<div class="say_button">
+				<button class="button">发送</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+</body>
+
+<script type="text/javascript" src="../js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+<script type="text/javascript" src="../js/index.js"></script>
+</html>

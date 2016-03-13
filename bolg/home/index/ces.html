@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="email=no">
+<title>素材</title>
+<link href="../ui/css/date.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>   
+<style type="text/css">
+.demo{
+	width: 20px;
+	height: 20px;
+	background: #e62123;
+	float: left;
+}
+.container{
+	width: 800px;
+	margin-top:100px;
+	height: 300px;
+	background: #e2e222;
+}
+.big{
+	width: 50px;
+	height: 50px;
+	/*margin-top: 5px;*/
+	/*float: left;*/
+	position: absolute;
+	background: black;
+}
+</style>
+<div class="container">
+	<!-- <div class="big" style="left:100px;top:210px;"></div>
+	<div class="big" style="left:150px;top:115px;"></div>
+	<div class="big" style="left:200px;top:222px;"></div> -->
+</div>
+<div class="demo"></div>
+
+<div id="result"></div>
+</body>
+<script type="text/javascript" src="../js/jquery-1.9.1.js" ></script>
+<script type="text/javascript">
+var isDrag = false;
+var isOver = true;
+var speed = 0;
+var bigSpeed = 5;
+var scores = 0;
+// var aLeft = $('.demo').position().left;
+// var aTop = $('.demo').position().top;
+var create_div = function(){
+	setInterval(function(){
+		// $('.container').append('<div style="left:' + Math.round(Math.random()*300) + ';top:' + Math.round(Math.random()*300) + ';" class="big"><big>');
+		// console.log(Math.round(Math.random()*300));
+		$('.big').bind('mouseover',function(){
+			scores += 5;
+			$('.demo').text(scores);
+			$(this).remove();
+		});
+	},2000);
+	// $('.big').animate({ left: "+=20" }, 1000);
+
+	setInterval(function(){
+		// $('.container').append('<div style="top:' + Math.random()*10 + ';" class="big"><big>');
+		$('.big').animate({ left: "+=20" });
+		// console.log($('.big').position().left);
+		
+	},200);
+	
+	// score($('.big').position());
+}
+// var score = function(position){
+	
+// 	var bLeft = position.left;
+// 	var bTop = position.top;
+// 	if(Math.abs($('.demo').position().left - bLeft) <=50 && Math.abs($('.demo').position().top - bTop) <=50 ){
+// 		console.log('got it');
+// 		scores += 5;
+// 		$('.big').remove();
+
+// 		console.log(scores);
+// 	}else{
+// 		console.log('false');
+// 	}
+// }
+$(document).ready(function(){
+	// $('.demo').mousedown(function(){
+	// 	isDrag = true;
+	// 	$('.demo').mouseup(function(){
+	// 		isOver = false;
+	// 	});
+	// 	if(isDrag && !isOver){
+	// 		$('.demo').mousemove(function(e){
+	// 			console.log(e.pageX);
+	// 		});
+	// 	}
+	// });     
+
+create_div();
+
+// console.log($('.big').children().last().position());
+// $(document).bind('mouseover',function(){
+// 	// console.log(bLeft);
+// 	score($('.big').position());
+// });
+$('.container').mousemove(function(e){
+	// console.log(e.pageX);
+	$('.demo').offset({top: e.pageY , left: e.pageX});
+	// $('.demo').css({'top':e.pageY,'left':e.pageX});
+});
+});
+</script>
+</html>
